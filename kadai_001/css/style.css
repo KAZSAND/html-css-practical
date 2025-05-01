@@ -37,7 +37,7 @@ img {
   border-style: solid;
   display: flex;
   align-items: center;
-  padding: 0;
+  padding: 0 20px;
 }
 
 #self-nav {
@@ -55,20 +55,22 @@ img {
 
 /*--MAIN VISUAL--*/
 #main-visual img {
-  margin: 20px 0;
+  width: 100%;
+  margin: 0 auto;
 }
 /*--ABOUT --*/
 #about {
-  width: 820px;
+  max-width: 960px;
   height: 402px;
-  margin: 40px auto;
+  margin: 20px auto;
   flex-wrap: wrap;
 }
 h2 {
   font-size: 34px;
   text-align: center;
-  padding: 20px 0 10px 0;
+  padding: 60px 0 40px 0;
   font-weight: bold;
+  margin: 0;
 }
 #about-inner {
   display: flex;
@@ -94,11 +96,12 @@ h2 {
 .introduction > li {
   font-size: 18px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 /*--WORKS--*/
 #works {
-  margin: 80px auto;
-  max-width: 752px;
+  margin: 0px auto;
+  max-width: 960px;
 }
 #works-flex {
   display: flex;
@@ -111,8 +114,6 @@ h2 {
   width: 25%;
   margin: 0 0.5rem;
   flex-wrap: wrap;
-}
-
 }
 
 /*--FOOTER--*/
@@ -145,12 +146,10 @@ footer p {
     display: block;
     text-align: center;
     flex-wrap: wrap;
-    
   }
   .about-work {
     width: 100%;
     margin: 40px auto;
-    
   }
   footer {
     text-align: center;

@@ -41,7 +41,7 @@ img {
 }
 
 #self-nav {
-  font-size: 34px;
+  font-size: 21px;
   left: 0;
   margin: 32px 16px 32px 16px;
   display: flex;
@@ -61,12 +61,11 @@ img {
 /*--ABOUT --*/
 #about {
   max-width: 960px;
-  height: 402px;
+
   margin: 20px auto;
-  flex-wrap: wrap;
 }
 h2 {
-  font-size: 34px;
+  font-size: 28px;
   text-align: center;
   padding: 60px 0 40px 0;
   font-weight: bold;
